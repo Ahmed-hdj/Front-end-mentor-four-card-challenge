@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Poppins";
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+#vb5 {
+    margin: 80px auto 0;
+    font-size: 37px;
+    width: fit-content;
+}
+
+#vb5 p:first-child {
+    font-weight: 200;
+
+    color: #00000082;
+}
+
+#vb5 p:last-child {
+    font-weight: 600;
+    color: #00000096;
+}
+
+#hg8,
+#hg9 {
+    width: fit-content;
+    margin: 10px auto 0;
+    color: #00000033;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#hg9 {
+    margin-top: 1px;
+
+}
+
+#builder,
+#karma {
+    width: 368px;
+}
+
+.container {
+    margin: 24px auto 10px;
+    position: relative;
+    height: 70vh;
+    width: 1340px;
+}
+
+
+
+#supervisor,
+#builder,
+#karma,
+#calculator {
+    border: solid 1px #00000005;
+    border-radius: 8px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 14px 16px 1px #00000017;
+}
+
+
+#builder {
+    left: 36%;
+    height: 43%;
+    top: 19px;
+}
+
+#supervisor {
+    top: 30%;
+    height: 37%;
+    width: 29%;
+    left: 78px;
+}
+
+#calculator {
+    top: 30%;
+    right: 53px;
+    height: 37%;
+    width: 31%;
+}
+
+#karma {
+    bottom: 33px;
+    left: 36%;
+    height: 43%;
+}
+
+#calculator p,
+#supervisor p {
+    padding-left: 30px;
+}
+
+#calculator img,
+#supervisor img {
+    padding-top: 55px;
+    padding-left: 302px;
+}
+
+#calculator p:first-child,
+#supervisor p:first-child {
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+
+#karma p:first-child,
+#builder p:first-child {
+    padding-top: 26px;
+    padding-bottom: 16px;
+}
+
+#karma p,
+#builder p {
+    padding-left: 29px;
+
+}
+
+#calculator p:first-child,
+#supervisor p:first-child,
+#karma p:first-child,
+#builder p:first-child {
+    font-weight: 600;
+    font-size: 24px;
+    color: #4d4b4b;
+    position: relative;
+}
+
+#calculator p,
+#supervisor p,
+#karma p,
+#builder p {
+    font-weight: 600;
+    font-size: 14px;
+    color: #00000073;
+    position: relative;
+}
+
+#karma img,
+#builder img {
+    padding-top: 73px;
+    padding-left: 263px;
+}
+
+#calculator .vj::before,
+#supervisor .vj::before,
+#karma .vj::before,
+#builder .vj::before {
+    content: " ";
+    width: 100%;
+    background-color: rgb(30, 138, 138);
+    position: absolute;
+    top: -72px;
+    height: 5px;
+    left: 0;
+    border-radius: 10px;
+
+}
+
+#karma .vj::before,
+#builder .vj::before {
+    top: -77px;
+}
+
+#calculator .vj::before {
+    background-color: hsl(212, 86%, 64%);
+
+}
+
+#supervisor .vj::before {
+    background-color: hsl(180, 62%, 55%);
+
+}
+
+#karma .vj::before {
+    background-color: hsl(34, 97%, 64%);
+
+}
+
+#builder .vj::before {
+    background-color: hsl(0, 78%, 62%);
+
+}
+
+@media (min-width:320px) and (max-width:1439px) {
+
+    #vb5 p:first-child,
+    #vb5 p:last-child {
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: auto
+    }
+
+
+
+    #hg8,
+    #hg9 {
+        display: inline-block;
+        margin-left: 26px;
+        margin-right: auto;
+        font-size: 13px;
+        width: 268px;
+    }
+
+    .container {
+        width: 268px;
+        position: unset;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #supervisor,
+    #builder,
+    #karma,
+    #calculator {
+        width: 100%;
+        position: unset;
+        margin-bottom: 15px;
+        height: 200px;
+    }
+
+
+    #supervisor p,
+    #builder p,
+    #karma p,
+    #calculator p {
+        font-size: 11px;
+        padding-left: 18px;
+    }
+
+    #calculator p:first-child,
+    #supervisor p:first-child,
+    #karma p:first-child,
+    #builder p:first-child {
+        font-size: 22px;
+        padding-top: 27px;
+    }
+
+    #karma img,
+    #builder img,
+    #calculator img,
+    #supervisor img {
+        padding-top: 9px;
+        padding-left: 187px;
+
+    }
+
+
+
+
+
+
+}
+
+@media (min-width:330px) {
+
+    #hg8,
+    #hg9 {
+        display: block;
+        margin-left: auto;
+
+    }
+}
